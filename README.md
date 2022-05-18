@@ -11,7 +11,7 @@
   - [Cyber Fusion Game](https://play.google.com/store/apps/details?id=com.PixelStorm.CyberPolice2&gl=PL)
   - [SVG Cipher App](https://github.com/Emilysta/E-media)
   - [Spare Parts Warehouse](https://github.com/Emilysta/SparePartsWarehouse)
-  - Vector Maker - in publishing right now
+  - [Vector Maker](https://github.com/Emilysta/VectorMaker)
 - `TypeScript, HTML5, CSS3` 
   - [Web App](https://github.com/Emilysta/ZIwG)
 - `C++ in Electronics`
