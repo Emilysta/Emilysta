@@ -13,7 +13,7 @@
   - [Spare Parts Warehouse](https://github.com/Emilysta/SparePartsWarehouse)
   - [Vector Maker](https://github.com/Emilysta/VectorMaker)
 - `TypeScript, HTML5, CSS3` 
-  - [Web App](https://github.com/Emilysta/ZIwG)
+  - [Event Colab](https://github.com/Emilysta/ZIwG)
 - `C++ in Electronics`
   - [Weather Station](https://github.com/Emilysta/WeatherStation)
 - `C++` 
