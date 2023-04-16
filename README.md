@@ -3,8 +3,6 @@
 ### I'm an Control Engineering And Robotics Engineer
 
 - Right now I'm doing my master's degree in Computer Science.
-- I'm currently working on React Native app
-- I've been working in gameDev in Pixel Storm Game Studio as 3D Graphic and Unity Developer
 
 ## Technologies and Programming languages
 - `C# (UWP, WPF, ASP.NET, Unity Engine)` 
