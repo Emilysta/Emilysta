@@ -1,10 +1,12 @@
 ### Hi there 👋
 ## I'm Emilia
 ### I'm an Control Engineering And Robotics Engineer
+### Master's degree in Computer Science
 
-- Right now I'm doing my master's degree in Computer Science.
+Contributor to [MBS Homelab](https://github.com/mbs-homelab)
 
 ## Technologies and Programming languages
+
 - `C# (UWP, WPF, ASP.NET, Unity Engine)` 
   - [Cyber Fusion Game](https://play.google.com/store/apps/details?id=com.PixelStorm.CyberPolice2&gl=PL)
   - [SVG Cipher App](https://github.com/Emilysta/E-media)
