@@ -7,24 +7,13 @@ Contributor to [MBS Homelab](https://github.com/mbs-homelab)
 
 ## Technologies and Programming languages
 
+
+- `TypeScript, JavaScript, HTML5, SCSS, CSS3`
+- `Angular, Vue`
 - `C# (UWP, WPF, ASP.NET, Unity Engine)` 
-  - [Cyber Fusion Game](https://play.google.com/store/apps/details?id=com.PixelStorm.CyberPolice2&gl=PL)
-  - [SVG Cipher App](https://github.com/Emilysta/E-media)
-  - [Spare Parts Warehouse](https://github.com/Emilysta/SparePartsWarehouse)
-  - [Vector Maker](https://github.com/Emilysta/VectorMaker)
-- `TypeScript, HTML5, CSS3` 
-  - [Event Colab](https://github.com/Emilysta/ZIwG)
-  - [Expandable List](https://github.com/Emilysta/expandable-list)
-  - [Search Box](https://github.com/Emilysta/search-box)
-  - [Snake game](https://github.com/Emilysta/snakeGame)
-  - [Snake backend for leaderboard](https://github.com/Emilysta/snakeBackend)
-- `C++ in Electronics`
-  - [Weather Station](https://github.com/Emilysta/WeatherStation)
-- `C++` 
-  - [TicTacToe game](https://github.com/Emilysta/TicTacToe)
-  - [Sorting repo](https://github.com/Emilysta/Sorting)
+- `Kubernetes, Docker`
 - `Latex`
-- `Some Java` - [PacMan project](https://github.com/Emilysta/PacMan)
+- `Java`
 
 ## Languages
 - :poland: Polish - native language
