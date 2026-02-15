@@ -11,11 +11,9 @@ export type IconPosition = 'leading' | 'trailing';
 })
 export class Button {
   /** Button type */
-  variant = input<ButtonVariant>('filled');
-
+  public readonly variant = input<ButtonVariant>('filled');
   /** Phosphor icon name (e.g. 'ph-arrow-right'). Omit for no icon. */
-  icon = input<string | null>(null);
-
+  public readonly icon = input<string | null>(null);
   /** Icon position relative to label */
-  iconPosition = input<IconPosition>('trailing');
+  public readonly iconPosition = input<IconPosition>('trailing');
 }

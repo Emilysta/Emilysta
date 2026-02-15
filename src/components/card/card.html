@@ -1,0 +1,12 @@
+<div class="content-container" [class]="variant()">
+  @if(icons().length > 0) {
+  <div class="icons">
+    @for (icon of icons(); track icon) {
+    <i class="ph-bold" [class]="icon" aria-hidden="true"></i>
+
+    }
+  </div>
+  }
+  <span class="md-typescale-body-large title" [innerText]="title()"></span>
+  <span class="md-typescale-body-medium description" [innerText]="description()"></span>
+</div>
