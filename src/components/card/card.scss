@@ -39,6 +39,15 @@
         background: var(--md-sys-color-primary);
         opacity: 1;
       }
+
+      .link-box {
+        color: var(--md-sys-color-primary);
+        gap: 12px;
+      }
+
+      .icons {
+        color: var(--md-sys-color-primary);
+      }
     }
 
     &.secondary {
@@ -47,6 +56,15 @@
       &::before {
         background: var(--md-sys-color-secondary);
         opacity: 1;
+      }
+
+      .link-box {
+        color: var(--md-sys-color-secondary);
+        gap: 12px;
+      }
+
+      .icons {
+        color: var(--md-sys-color-secondary);
       }
     }
 
@@ -57,6 +75,15 @@
         background: var(--md-sys-color-tertiary);
         opacity: 1;
       }
+
+      .link-box {
+        color: var(--md-sys-color-tertiary);
+        gap: 12px;
+      }
+
+      .icons {
+        color: var(--md-sys-color-tertiary);
+      }
     }
   }
 
@@ -64,18 +91,42 @@
     display: inline-flex;
     gap: 5px;
     font-size: 24px;
+    color: var(--md-sys-color-on-surface-variant);
   }
 
-  &.primary .icons {
-    color: var(--md-sys-color-primary);
+  .tags {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 8px;
+      color: var(--md-sys-color-on-surface-variant);
+      border: 1px solid var(--md-sys-color-outline-variant);
+      background-color: var(--md-sys-color-surface-container-high);
+      width: fit-content;
+      height: fit-content;
+      border-radius: 16px;
+      height: 24px;
+    }
   }
 
-  &.secondary .icons {
-    color: var(--md-sys-color-secondary);
-  }
+  .link-box {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--md-sys-color-on-surface-variant);
+    transition: color 0.3s ease, gap 0.3s ease;
 
-  &.tertiary .icons {
-    color: var(--md-sys-color-tertiary);
+    span {
+      font-weight: var(--md-sys-typescale-label-medium-weight-prominent);
+    }
   }
 
   .title {
@@ -86,4 +137,9 @@
     color: var(--md-sys-color-on-surface-variant)
   }
 
+}
+
+a.content-container {
+  text-decoration: none;
+  cursor: pointer;
 }

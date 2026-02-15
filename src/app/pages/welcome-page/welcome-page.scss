@@ -51,23 +51,6 @@
   }
 }
 
-.about-section {
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    align-items: stretch;
-    justify-content: center;
-
-    app-card {
-      max-width: 500px;
-      min-height: 100%;
-      height: unset;
-      display: block;
-    }
-  }
-}
-
 .dark-section {
   background-color: var(--md-sys-color-surface-dim);
 }
@@ -93,6 +76,21 @@
     app-technology-tile {
       max-width: 350px;
     }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: stretch;
+  justify-content: center;
+
+  app-card {
+    max-width: 500px;
+    min-height: 100%;
+    height: unset;
+    display: block;
   }
 }
 

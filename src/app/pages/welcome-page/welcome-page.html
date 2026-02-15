@@ -52,6 +52,16 @@
     <h2 class="md-typescale-headline-large title">Featured projects</h2>
     <p class="md-typescale-body-medium description">A selection of my recent work</p>
   </div>
+  <div class="cards">
+    <app-card [icons]="['ph-number-one']" title="Online Doctors" [tags]="['Angular','express', 'WebRTC', 'WebSocket']"
+      link="https://github.com/Emilysta/online-doctors"
+      description="A full-stack platform that allows communication of users through: chats, audio calls & video calls. Communication can be provided by WebRTC or WebSocket">
+    </app-card>
+    <!-- <app-card [icons]="['ph-number-two']" variant="secondary" title="-" description="-">
+    </app-card>
+    <app-card [icons]="['ph-number-three']" variant="tertiary" title="-" description="-">
+    </app-card> -->
+  </div>
 </section>
 
 <section class="dark-section standard-section">
@@ -64,5 +74,7 @@
       [openInNewTab]="true" />
     <app-icon-link icon="ph-linkedin-logo" variant="secondary"
       href="https://www.linkedin.com/in/emilia-starczyk-553858200/" ariaLabel="LinkedIn" [openInNewTab]="true" />
+    <app-icon-link icon="ph-instagram-logo" variant="tertiary" href="https://www.instagram.com/starczykemilia"
+      ariaLabel="Instagram" [openInNewTab]="true" />
   </div>
 </section>
