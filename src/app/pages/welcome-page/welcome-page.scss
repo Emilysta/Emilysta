@@ -1,15 +1,13 @@
-.hello-section,
-.hello-section-content {
-  display: flex;
-  flex-direction: column;
-}
-
 .hello-section {
   gap: 16px;
-  padding: 24px;
+  padding: 96px 24px;
+  display: flex;
+  flex-direction: column;
 
   .hello-section-content {
     gap: 24px;
+    display: flex;
+    flex-direction: column;
   }
 
   .tag {
@@ -36,7 +34,9 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding: 24px;
+  padding: 96px 24px;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+
 
   .header {
     display: flex;
@@ -68,6 +68,10 @@
   }
 }
 
+.dark-section {
+  background-color: var(--md-sys-color-surface-dim);
+}
+
 .skills-section {
   .tags {
     display: flex;
@@ -85,5 +89,17 @@
     gap: 48px;
     align-items: stretch;
     justify-content: center;
+
+    app-technology-tile {
+      max-width: 350px;
+    }
   }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }

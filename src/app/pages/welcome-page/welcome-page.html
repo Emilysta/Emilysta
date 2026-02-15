@@ -1,16 +1,12 @@
-<section class="hello-section">
+<section class="dark-section hello-section">
   <div class="hello-section-content">
     <p class="md-typescale-label-small tag">Welcome to my portfolio</p>
     <h1 class="md-typescale-display-large title">Hi, I'm Emilia Starczyk</h1>
     <p class="md-typescale-headline-small subtitle">Software Developer | Travel Enthusiast | Dog Lover</p>
   </div>
   <div class="secion-actions">
-    <app-button iconPosition="trailing" icon="ph-arrow-right">
-      View My Work
-    </app-button>
-    <app-button variant="outlined">
-      Get In Touch
-    </app-button>
+    <app-button iconPosition="trailing" icon="ph-arrow-right">View My Work</app-button>
+    <app-button variant="outlined">Get In Touch</app-button>
   </div>
 </section>
 
@@ -32,7 +28,7 @@
   </div>
 </section>
 
-<section class="skills-section standard-section">
+<section class="skills-section standard-section dark-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">Technical skills</h2>
     <p class="md-typescale-body-medium description">Tools and technologies I work with</p>
@@ -48,5 +44,25 @@
       [variant]="index | tagColor">
     </app-technology-tile>
     }
+  </div>
+</section>
+
+<section class="standard-section">
+  <div class="header">
+    <h2 class="md-typescale-headline-large title">Featured projects</h2>
+    <p class="md-typescale-body-medium description">A selection of my recent work</p>
+  </div>
+</section>
+
+<section class="dark-section standard-section">
+  <div class="header">
+    <h2 class="md-typescale-headline-large title">Let's Connect</h2>
+    <p class="md-typescale-body-medium description">I'm always open to new opportunities and collaborations</p>
+  </div>
+  <div class="social-links">
+    <app-icon-link icon="ph-github-logo" variant="primary" href="https://github.com/Emilysta" ariaLabel="GitHub"
+      [openInNewTab]="true" />
+    <app-icon-link icon="ph-linkedin-logo" variant="secondary"
+      href="https://www.linkedin.com/in/emilia-starczyk-553858200/" ariaLabel="LinkedIn" [openInNewTab]="true" />
   </div>
 </section>
