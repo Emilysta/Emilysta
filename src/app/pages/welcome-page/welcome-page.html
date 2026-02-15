@@ -14,7 +14,7 @@
   </div>
 </section>
 
-<section class="about-section">
+<section class="about-section standard-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">About me</h2>
     <p class="md-typescale-body-medium description">Building digital experiences that make a difference</p>
@@ -29,5 +29,17 @@
     <app-card variant="tertiary" title="Dog Lover"
       description="Proud parent of two beautiful rough collies. They're my coding companions!">
     </app-card>
+  </div>
+</section>
+
+<section class="skills-section standard-section">
+  <div class="header">
+    <h2 class="md-typescale-headline-large title">Technical skills</h2>
+    <p class="md-typescale-body-medium description">Tools and technologies I work with</p>
+  </div>
+  <div class="tags">
+    @for (tag of tags; track tag.text; let index = $index) {
+    <app-tag [tag]="tag.text" [variant]="index | tagColor" [icon]="tag.icon"></app-tag>
+    }
   </div>
 </section>

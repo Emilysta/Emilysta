@@ -31,7 +31,8 @@
   }
 }
 
-.about-section {
+
+.standard-section {
   display: flex;
   flex-direction: column;
   gap: 64px;
@@ -48,7 +49,9 @@
       color: var(--md-sys-color-on-surface-variant)
     }
   }
+}
 
+.about-section {
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -63,5 +66,15 @@
       display: block;
     }
   }
+}
 
+.skills-section {
+  .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: stretch;
+    justify-content: center;
+  }
 }
