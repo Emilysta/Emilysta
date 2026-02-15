@@ -42,4 +42,11 @@
     <app-tag [tag]="tag.text" [variant]="index | tagColor" [icon]="tag.icon"></app-tag>
     }
   </div>
+  <div class="technologies">
+    @for (technology of technologies; track technology.title; let index = $index) {
+    <app-technology-tile [icon]="technology.icon" [title]="technology.title" [description]="technology.description"
+      [variant]="index | tagColor">
+    </app-technology-tile>
+    }
+  </div>
 </section>

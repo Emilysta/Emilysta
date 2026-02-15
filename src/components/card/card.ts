@@ -1,6 +1,5 @@
 import { Component, input } from '@angular/core';
-
-type CardVariant = 'primary' | 'secondary' | 'tertiary';
+import { ColorVariant } from '../../models/color-variant.model';
 
 @Component({
   selector: 'app-card',
@@ -9,10 +8,10 @@ type CardVariant = 'primary' | 'secondary' | 'tertiary';
   styleUrl: './card.scss',
 })
 export class Card {
-  /** Card colro variant */
-  public variant = input<CardVariant>('primary');
+  /** Color variant */
+  public readonly variant = input<ColorVariant>('primary');
   /** Phosphor icons (e.g. 'ph-arrow-right'). Omit for no icon. */
-  public icons = input<string[]>([]);
-  public title = input<string | undefined>(undefined);
-  public description = input<string | undefined>(undefined);
+  public readonly icons = input<string[]>([]);
+  public readonly title = input<string | undefined>(undefined);
+  public readonly description = input<string | undefined>(undefined);
 }

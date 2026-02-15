@@ -1,6 +1,5 @@
 import { Component, input } from '@angular/core';
-
-export type TagVariant = 'primary' | 'secondary' | 'tertiary';
+import { ColorVariant } from '../../models/color-variant.model';
 
 @Component({
   selector: 'app-tag',
@@ -14,5 +13,5 @@ export type TagVariant = 'primary' | 'secondary' | 'tertiary';
 export class Tag {
   public readonly icon = input<string | undefined>(undefined);
   public readonly tag = input.required<string>();
-  public readonly variant = input<TagVariant>('primary');
+  public readonly variant = input<ColorVariant>('primary');
 }
