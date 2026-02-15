@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Button } from "../../../components/button/button";
 import { Card } from "../../../components/card/card";
 import { IconLink } from '../../../components/icon-link/icon-link';
+import { Link } from '../../../components/link/link';
 import { Tag } from '../../../components/tag/tag';
 import { TechnologyTile } from '../../../components/technology-tile/technology-tile';
 import { TagColorPipe } from '../../../pipes/tag-color-pipe';
@@ -23,6 +24,7 @@ interface Technology {
     Button,
     Card,
     IconLink,
+    Link,
     Tag,
     TagColorPipe,
     TechnologyTile

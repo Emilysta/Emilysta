@@ -6,8 +6,8 @@
       <p class="md-typescale-headline-small subtitle">Software Developer | Travel Enthusiast | Dog Lover</p>
     </div>
     <div class="secion-actions">
-      <app-button iconPosition="trailing" icon="ph-arrow-right">View My Work</app-button>
-      <app-button variant="outlined">Get In Touch</app-button>
+      <app-link iconPosition="trailing" icon="ph-arrow-right" href="#projects">View My Work</app-link>
+      <app-link variant="outlined" href="#socials">Get In Touch</app-link>
     </div>
   </div>
   <div class="right">
@@ -52,7 +52,7 @@
   </div>
 </section>
 
-<section class="standard-section">
+<section class="standard-section" id="projects">
   <div class="header">
     <h2 class="md-typescale-headline-large title">Featured projects</h2>
     <p class="md-typescale-body-medium description">A selection of my recent work.</p>
@@ -77,7 +77,7 @@
     <h2 class="md-typescale-headline-large title">Let's Connect</h2>
     <p class="md-typescale-body-medium description">I'm always open to new opportunities and collaborations.</p>
   </div>
-  <div class="social-links">
+  <div class="social-links" id="socials">
     <app-icon-link icon="ph-github-logo" variant="primary" href="https://github.com/Emilysta" ariaLabel="GitHub"
       [openInNewTab]="true" />
     <app-icon-link icon="ph-linkedin-logo" variant="secondary"
