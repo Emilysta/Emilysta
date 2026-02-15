@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Button } from "../../../components/button/button";
 import { Card } from "../../../components/card/card";
 import { IconLink } from '../../../components/icon-link/icon-link';
 import { Link } from '../../../components/link/link';
@@ -21,7 +20,6 @@ interface Technology {
   templateUrl: './welcome-page.html',
   styleUrl: './welcome-page.scss',
   imports: [
-    Button,
     Card,
     IconLink,
     Link,
