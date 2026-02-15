@@ -18,16 +18,16 @@
 <section class="about-section standard-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">About me</h2>
-    <p class="md-typescale-body-medium description">Building digital experiences that make a difference</p>
+    <p class="md-typescale-body-medium description">Building digital experiences that make a difference.</p>
   </div>
   <div class="cards">
     <app-card [icons]="['ph-caret-left', 'ph-caret-right']" title="Developer"
       description="Passionate about building elegant solutions to complex problems. 5 years of experience in software development.">
     </app-card>
-    <app-card variant="secondary" title="Traveler"
+    <app-card variant="secondary" title="Traveler" [icons]="['ph-airplane-tilt']"
       description="Explored 23 countries across 5 continents. Always planning the next adventure!">
     </app-card>
-    <app-card variant="tertiary" title="Dog Lover"
+    <app-card variant="tertiary" title="Dog Lover" [icons]="['ph-paw-print']"
       description="Proud parent of two beautiful rough collies. They're my coding companions!">
     </app-card>
   </div>
@@ -36,7 +36,7 @@
 <section class="skills-section standard-section dark-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">Technical skills</h2>
-    <p class="md-typescale-body-medium description">Tools and technologies I work with</p>
+    <p class="md-typescale-body-medium description">Tools and technologies I work with.</p>
   </div>
   <div class="tags">
     @for (tag of tags; track tag.text; let index = $index) {
@@ -55,24 +55,27 @@
 <section class="standard-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">Featured projects</h2>
-    <p class="md-typescale-body-medium description">A selection of my recent work</p>
+    <p class="md-typescale-body-medium description">A selection of my recent work.</p>
   </div>
   <div class="cards">
-    <app-card [icons]="['ph-number-one']" title="Online Doctors" [tags]="['Angular','express', 'WebRTC', 'WebSocket']"
+    <app-card [icons]="['ph-number-one']" title="Online Doctors" [tags]="['Angular','Express', 'WebRTC', 'WebSocket']"
       link="https://github.com/Emilysta/online-doctors"
-      description="A full-stack platform that allows communication of users through: chats, audio calls & video calls. Communication can be provided by WebRTC or WebSocket">
+      description="A full-stack platform that allows communication of users through: chats, audio calls & video calls. Communication can be provided by WebRTC or WebSocket.">
     </app-card>
-    <!-- <app-card [icons]="['ph-number-two']" variant="secondary" title="-" description="-">
+    <app-card [icons]="['ph-number-two']" variant="secondary" title="Wedding Page Template"
+      [tags]="['Vue','Internationalization']"
+      description="Reusable Vue components for building wedding websites. Includes internationalization and timezone support.">
     </app-card>
-    <app-card [icons]="['ph-number-three']" variant="tertiary" title="-" description="-">
-    </app-card> -->
+    <app-card [icons]="['ph-number-three']" variant="tertiary" title="CVE Manager" [tags]="['Angular', 'Go']"
+      description="Software vulnerabilities notification management tool.">
+    </app-card>
   </div>
 </section>
 
 <section class="dark-section standard-section">
   <div class="header">
     <h2 class="md-typescale-headline-large title">Let's Connect</h2>
-    <p class="md-typescale-body-medium description">I'm always open to new opportunities and collaborations</p>
+    <p class="md-typescale-body-medium description">I'm always open to new opportunities and collaborations.</p>
   </div>
   <div class="social-links">
     <app-icon-link icon="ph-github-logo" variant="primary" href="https://github.com/Emilysta" ariaLabel="GitHub"
