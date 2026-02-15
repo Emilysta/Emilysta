@@ -1,31 +1,82 @@
 .hello-section {
-  gap: 16px;
-  padding: 96px 24px;
+  padding: 96px 48px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
 
-  .hello-section-content {
-    gap: 24px;
+  .left {
+    gap: 16px;
     display: flex;
     flex-direction: column;
+
+    .hello-section-content {
+      gap: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tag {
+      font-weight: var(--md-sys-typescale-label-small-weight-prominent);
+      color: var(--md-sys-color-primary);
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-weight: 300;
+      color: var(--md-sys-color-on-surface-variant);
+    }
+
+    .secion-actions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
   }
 
-  .tag {
-    font-weight: var(--md-sys-typescale-label-small-weight-prominent);
-    color: var(--md-sys-color-primary);
-    text-transform: uppercase;
-  }
+  .right {
 
-  .subtitle {
-    font-weight: 300;
-    color: var(--md-sys-color-on-surface-variant);
-  }
+    $size: 220px;
+    $offset: 12px;
+    height: $size;
+    width: $size;
+    position: relative;
+    margin-right: $offset;
 
-  .secion-actions {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 16px;
+    img {
+      border-radius: 16px;
+      height: $size;
+      width: $size;
+      position: absolute;
+      z-index: 1;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      height: $size;
+      width: $size;
+      border-radius: 16px;
+      border: 2px solid var(--md-sys-color-primary);
+      position: absolute;
+      border-radius: 16px;
+      z-index: 0;
+    }
+
+    &:before {
+      left: -$offset;
+      top: $offset;
+    }
+
+    &:after {
+      top: -$offset;
+      right: -$offset;
+      border-color: var(--md-sys-color-secondary);
+    }
   }
 }
 
@@ -45,7 +96,12 @@
     align-items: center;
     justify-content: center;
 
+    .title {
+      text-align: center;
+    }
+
     .description {
+      text-align: center;
       color: var(--md-sys-color-on-surface-variant)
     }
   }
